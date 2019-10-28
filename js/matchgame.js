@@ -1,4 +1,5 @@
 $(function () {
+    matchingGame.deck.sort(shuffle);
     for (let i = 0; i < 11; i++) {
         $(".card:first-child").clone().appendTo("#cards");
     }
